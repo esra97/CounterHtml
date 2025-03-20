@@ -1,0 +1,48 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+body{ background-color:azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 900px;
+    margin: 0px auto;
+    text-align: center;
+}
+#counter {
+   
+        font-size: 48px;
+        font-weight: bold;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color:beige;
+} 
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    color:white;
+}
+
+#message {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: blue;
+}
